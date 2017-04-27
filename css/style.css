@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	cursor: auto;
+}
+
+body {
+	background: #333 url(../images/bg.jpg) repeat top left;
+}
+
+.container {
+}
+
+
+header nav {
+	margin-top: 50px;
+	text-align: center;
+}
+
+header nav a {
+	background: -webkit-linear-gradient(top, #90bd9e 0%,#72a081 100%);
+	padding: 5px 8px;
+	border-radius: 5px;
+	border: 1px solid #719c7f;
+	font-size: 13px;
+	font-weight: 800;
+	color: white;
+	margin: 0 5px;
+}
+
+.dg-container {
+	position: relative;
+	text-align: center;
+	margin: 30px auto;
+	padding-bottom: 100px;
+	width: 482px;
+	height: 316px;
+}
+.dg-container span {
+	display: block;
+	position: absolute;
+	width: 482px;
+	height: 316px;
+	background: url(../images/browser.png) no-repeat top left;
+}
+.dg-container img {
+	padding: 41px 0 0 1px;
+}
+.dg-container p {
+	margin: 10px;
+	visibility: hidden;
+}
+
+.t {
+	width: 58px;
+	height: 25px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+.t span {
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+
+.t span:last-child {
+	float: right;
+	margin-left: 30px;
+}
+
+/*animation*/
+.dg-transition {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+
